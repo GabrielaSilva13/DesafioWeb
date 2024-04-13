@@ -1,0 +1,153 @@
+/* Alinhamento do texto */
+.header_navigation{
+  text-align: left;
+}
+
+
+
+/* Cor de texto e fundo */
+html{
+background: #e0e6e7;
+color:#34221b;
+}
+
+p{
+   font-family: Verdana, Geneva, Tahoma, sans-secrif;
+}
+
+/* Fonte*/
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  background-color: #beb8ad;
+  font-weight: 600; 
+}
+
+/* MENU DE NAVEGAÇÃO (feito) */
+.header_navigation {
+  display: inline-block;
+  justify-content:space-between;
+  align-items: center;
+  flex-direction: column;
+  margin: 1%; 
+  border-radius: 60.5rem; /* 1000px */
+  background-color: #cac6bc;
+  padding: 0px 5.25rem 0px 5rem; /* 100px / 160px */
+}
+/* cor do link */
+.header_navigation ul li a {
+  color: #665c5c;
+  text-decoration: none;
+  font-size: 1.125rem; /* 18px */
+  transition: 2.3s ease;
+}
+/*MUDAR A COR link*/
+.header_navigation ul li a:hover {
+  color: #f53708;
+  font-size: 1.375rem; /* 22px */
+  transition: .3s ease;
+}
+/* Tamanho da Pag */
+h1 {
+  text-align: left;
+  font-size: 1.875rem; /* 30px */
+}
+
+
+.text-home{
+  padding: 1.25rem 1.875rem; /* 20px / 30px */
+  flex-direction: column-reverse;
+  justify-content: center;
+  margin: auto;
+}
+
+.carousel {
+  width: 45vw; /* 800px */
+  border-radius: 3.75rem; /* 60px */
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.carousel-item img {
+  width: 100%;
+  border-radius: 3.75rem; /* 60px */
+  height: auto;
+}
+
+
+.price, .price-none {
+  font-size: 1.25rem; /* 20px */
+  margin-top: 0.625rem; /* 10px */ 
+  font-weight: bold; 
+  background-color: #725950;
+  color: #e4891b;
+  border-radius: 6.25rem; /* 100px */
+  margin: 0.3125rem 6.25rem; /* 5px / 100px */
+  padding: 12px; /* 15px */
+  text-align: center;
+  min-width: 3rem;
+  justify-content: center;
+}
+
+
+/* RECOMENDAÇÃO*/
+
+.recomendations {
+  background-color: #4a4b48; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.section-recomendations {
+  text-align: center; 
+}
+
+.recomendado {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap ;
+  margin: 1vh; /* 1% da altura da tela */
+  padding: 0 1vh; /* 0 nos lados, 1% da altura da tela em cima e em baixo */
+}
+
+.recomendado img {
+  height: auto;
+  border-radius: 1.875rem; /* 30px */
+  width: 45vh;
+  margin: 0 3vh; 
+}
+
+.recomendations button {
+  font-size: 1.25rem; /* 20px */
+  background-color: #f2e7ce;
+  color: #566149;
+  width: 6.25rem; /* 100px */
+  height: 2.5rem; /* 40px */
+  font-weight: bold;
+  border: none;
+  margin-top: 1.25rem; /* 20px */
+  border-radius: 1.875rem; /* 30px */
+}
+
+.recomendations button:hover {
+  background-color: #f2e7ce;
+  color: #7D351D;
+  font-size: 1.375rem; /* 22px */
+  width: 6.875rem; /* 110px */
+  transition: .4s ease-in-out;
+}
+
+ 
+strong {
+  color: #6a4a0a;
+}
+
+.footer-section {
+  margin-top: -2rem; 
+  justify-content: center;
+}
+
+
+
